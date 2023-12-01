@@ -3,8 +3,7 @@ const cors = require('cors');
 
 const connectDB = require('./connection');
 
-const dotenv = require('dotenv');
-dotenv.config({ path: './.env.example' });
+
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const mongoose = require('mongoose');
