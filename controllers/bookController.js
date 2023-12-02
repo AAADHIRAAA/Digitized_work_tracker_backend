@@ -185,6 +185,7 @@ const getOverallStatistics = async (req, res) => {
             _id: {
            
               scribeNumber: '$scribe_number',
+              username: "$userName",
             },
             totalBooks: { $sum: 1 },
             totalPages: { $sum: '$pages_scanned' },
